@@ -33,8 +33,10 @@ export default {
     }
   },
   title() {
+    console.log('Home.vue title-mixin');
     return this.title;
   },
+  
   methods : {
     toastTest1(){
       this.$toast.info('Hello Info');
